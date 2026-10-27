@@ -1,0 +1,45 @@
+{
+  "name": "my-file-compare",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "0.0.1",
+  "publisher": "my-company",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/index.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      { "command": "my-file-compare.selectForCompare", "title": "%command.selectForCompare.title%" },
+      { "command": "my-file-compare.compareWithSelected", "title": "%command.compareWithSelected.title%" }
+    ],
+    "menus": {
+      "explorer/context": [
+        { "command": "my-file-compare.selectForCompare", "group": "comparison@1", "when": "config.my-file-compare.enabled" },
+        { "command": "my-file-compare.compareWithSelected", "group": "comparison@2", "when": "config.my-file-compare.enabled" }
+      ]
+    },
+    "configuration": {
+      "title": "%configuration.title%",
+      "properties": {
+        "my-file-compare.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "%configuration.enabled.description%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

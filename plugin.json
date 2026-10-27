@@ -1,0 +1,16 @@
+{
+  "name": "my-file-compare",
+  "displayName": "文件比较插件",
+  "version": "0.0.1",
+  "description": "提供文件比较功能，支持选择文件进行差异对比",
+  "commands": [
+    { "id": "my-file-compare.selectForCompare", "title": "选择文件进行比较", "handler": "selectForCompare" },
+    { "id": "my-file-compare.compareWithSelected", "title": "与已选文件比较", "handler": "compareWithSelected" }
+  ],
+  "menus": {
+    "explorer/context": [
+      { "command": "my-file-compare.selectForCompare", "group": "comparison@1" },
+      { "command": "my-file-compare.compareWithSelected", "group": "comparison@2" }
+    ]
+  }
+}

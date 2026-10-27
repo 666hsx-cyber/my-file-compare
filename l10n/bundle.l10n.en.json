@@ -1,0 +1,10 @@
+{
+  "Please right-click a file in the file tree to use this feature": "Please right-click a file in the file tree to use this feature",
+  "Selected file for comparison: {fileName}": "Selected file for comparison: {fileName}",
+  "Please select a comparison file first": "Please select a comparison file first",
+  "File comparison failed: {error}": "File comparison failed: {error}",
+  "File compare plugin activated": "File compare plugin activated",
+  "File compare plugin deactivated": "File compare plugin deactivated",
+  "File compare plugin enabled": "File compare plugin enabled",
+  "File compare plugin disabled": "File compare plugin disabled"
+}

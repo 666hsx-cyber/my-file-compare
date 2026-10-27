@@ -1,0 +1,8 @@
+{
+  "extension.displayName": "文件比较插件",
+  "extension.description": "提供文件比较功能，支持选择文件进行差异对比",
+  "command.selectForCompare.title": "选择文件进行比较",
+  "command.compareWithSelected.title": "与已选文件比较",
+  "configuration.title": "文件比较插件",
+  "configuration.enabled.description": "启用或禁用文件比较插件的功能"
+}

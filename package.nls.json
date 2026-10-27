@@ -1,0 +1,8 @@
+{
+  "extension.displayName": "File Compare",
+  "extension.description": "Compare files and show differences",
+  "command.selectForCompare.title": "Select for Compare",
+  "command.compareWithSelected.title": "Compare with Selected",
+  "configuration.title": "File Compare Plugin",
+  "configuration.enabled.description": "Enable or disable the file compare plugin"
+}

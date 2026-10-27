@@ -1,0 +1,10 @@
+{
+  "Please right-click a file in the file tree to use this feature": "请在文件树中右键点击文件来使用此功能",
+  "Selected file for comparison: {fileName}": "已选择比较文件: {fileName}",
+  "Please select a comparison file first": "请先选择一个比较文件",
+  "File comparison failed: {error}": "文件比较失败: {error}",
+  "File compare plugin activated": "文件比较插件已激活",
+  "File compare plugin deactivated": "文件比较插件已停用",
+  "File compare plugin enabled": "文件比较插件已启用",
+  "File compare plugin disabled": "文件比较插件已禁用"
+}
